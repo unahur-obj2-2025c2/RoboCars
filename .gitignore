@@ -1,17 +1,32 @@
+
+# Excluir la carpeta .vscode/ (configuraciones de VS Code)
+.vscode/
+
+# Excluir la carpeta target/ (artefactos generados por Maven)
 target/
-pom.xml.tag
-pom.xml.releaseBackup
+
+# Excluir archivos específicos de Maven
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Excluir archivos de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Excluir archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Excluir archivos de logs
+*.log
+*.log.*
+
+# Excluir archivos generados por el sistema operativo
+*.swp
+*.swo
